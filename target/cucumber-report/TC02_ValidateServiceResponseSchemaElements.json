@@ -1,0 +1,253 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 21,
+        "name": "Verify api service schema level object tags",
+        "description": "",
+        "id": "as-a-backend-qa-i-want-to-validate-the-schema-and-test-data.;verify-api-service-schema-level-object-tags;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2438323100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user validate the GET Service response \"api/system/currency/list\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "api/system/currency/list",
+                  "offset": 40
+                }
+              ],
+              "location": "hotelModuleStepDef.validateGetServiceResponse(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 655931000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user validate the base level response",
+            "match": {
+              "location": "hotelModuleStepDef.userValidateTheBaseLevelResponse()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19453100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user can able to validate the schema level equivalent object tags \"symbol\", \"name\", \"name_ar\", \"symbol_native\", \"decimal_digits\", \"rounding\", \"code\", \"name_plural\", \"rate\", \"Rate\", \"date\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "symbol",
+                  "offset": 67
+                },
+                {
+                  "val": "name",
+                  "offset": 77
+                },
+                {
+                  "val": "name_ar",
+                  "offset": 85
+                },
+                {
+                  "val": "symbol_native",
+                  "offset": 96
+                },
+                {
+                  "val": "decimal_digits",
+                  "offset": 113
+                },
+                {
+                  "val": "rounding",
+                  "offset": 131
+                },
+                {
+                  "val": "code",
+                  "offset": 143
+                },
+                {
+                  "val": "name_plural",
+                  "offset": 151
+                },
+                {
+                  "val": "rate",
+                  "offset": 166
+                },
+                {
+                  "val": "Rate",
+                  "offset": 174
+                },
+                {
+                  "val": "date",
+                  "offset": 182
+                }
+              ],
+              "location": "hotelModuleStepDef.userCanAbleToValidateTheSchemaLevelObjectTags(String,String,String,String,String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@TC02_ValidateServiceResponseSchemaElements"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Verify api service schema level object tags",
+        "description": "",
+        "id": "as-a-backend-qa-i-want-to-validate-the-schema-and-test-data.;verify-api-service-schema-level-object-tags;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 230380600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user validate the GET Service response \"api/system/currency/list\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "api/system/currency/list",
+                  "offset": 40
+                }
+              ],
+              "location": "hotelModuleStepDef.validateGetServiceResponse(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13973100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user validate the base level response",
+            "match": {
+              "location": "hotelModuleStepDef.userValidateTheBaseLevelResponse()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60748300,
+              "error_message": "java.lang.AssertionError: name_ar tag not exists\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat com.tajawal.featureImp.hotelModuleStepDef.userCanAbleToValidateTheSchemaLevelObjectTags(hotelModuleStepDef.java:42)\r\n\tat ✽.Then user can able to validate the schema level equivalent object tags \"symbol\", \"name\", \"name_a\", \"symbol_native\", \"decimal_digits\", \"rounding\", \"code\", \"name_plural\", \"rate\", \"Rate\", \"date\"(src/main/resources/features/tajawalCurrencyListAPI.feature:17)\r\n",
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "user can able to validate the schema level equivalent object tags \"symbol\", \"name\", \"name_a\", \"symbol_native\", \"decimal_digits\", \"rounding\", \"code\", \"name_plural\", \"rate\", \"Rate\", \"date\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "symbol",
+                  "offset": 67
+                },
+                {
+                  "val": "name",
+                  "offset": 77
+                },
+                {
+                  "val": "name_a",
+                  "offset": 85
+                },
+                {
+                  "val": "symbol_native",
+                  "offset": 95
+                },
+                {
+                  "val": "decimal_digits",
+                  "offset": 112
+                },
+                {
+                  "val": "rounding",
+                  "offset": 130
+                },
+                {
+                  "val": "code",
+                  "offset": 142
+                },
+                {
+                  "val": "name_plural",
+                  "offset": 150
+                },
+                {
+                  "val": "rate",
+                  "offset": 165
+                },
+                {
+                  "val": "Rate",
+                  "offset": 173
+                },
+                {
+                  "val": "date",
+                  "offset": 181
+                }
+              ],
+              "location": "hotelModuleStepDef.userCanAbleToValidateTheSchemaLevelObjectTags(String,String,String,String,String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@TC02_ValidateServiceResponseSchemaElements"
+          }
+        ]
+      }
+    ],
+    "name": "As a Backend QA I want to validate the schema and test data.",
+    "description": "",
+    "id": "as-a-backend-qa-i-want-to-validate-the-schema-and-test-data.",
+    "keyword": "Feature",
+    "uri": "src/main/resources/features/tajawalCurrencyListAPI.feature"
+  }
+]
