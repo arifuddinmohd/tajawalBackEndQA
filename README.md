@@ -29,7 +29,7 @@ TestCase1: Validate the calender fare service response for diff cabin class.
 1. Navigate to the below target location for reports.
      target > html-reports > TC's folder for reports logs.
      
-**Software Used:** 
+**Framework Implementation:** 
  
   1. It's a Maven project integrated with Junit, Cucumber and restAssure.
   2. Programming language used JAVA.  
